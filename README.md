@@ -1,7 +1,13 @@
 ```
-# Authology
+# NgxAuthology
 
-The Authology is a comprehensive solution for integrating authentication into your Angular projects. It provides a set of tools, components, and guards that make the authentication process easier and more secure.
+The NgxAuthology is a comprehensive solution for integrating authentication into your Angular projects. It provides a set of tools, components, and guards that make the authentication process easier and more secure.
+
+## The concept of brands (needs cleans up by the original author)
+
+When multiple brand keys exist in the routes object, and if:
+(a) multiple brands are passed in the loop, we're expecting only one brand to be passed and therefore it's routes login will be used.
+thisBrand is used here to check whether authology config routes object contains multiple keys or just a default one. Usually only one brand will be passed. Where multilple brands exist
 
 ## Features
 
@@ -11,7 +17,7 @@ The Authology is a comprehensive solution for integrating authentication into yo
 
 ## Installation
 
-You can install the Authology using npm. Run the following command:
+You can install the NgxAuthology using npm. Run the following command:
 
 ```
 npm install ngx-authology
