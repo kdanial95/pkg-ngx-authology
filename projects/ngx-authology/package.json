@@ -1,0 +1,14 @@
+{
+    "name": "ngx-authology",
+    "version": "0.0.124",
+    "peerDependencies": {
+        "@angular/common": ">=7.0.0",
+        "@angular/core": ">=7.0.0"
+    },
+    "dependencies": {
+        "tslib": "^2.0.0",
+        "ngx-cookie-service": "^3.0.4",
+        "@bitfoot/ngx-api": "^0.1.10",
+        "@bitfoot/ngx-navload": "^0.0.8"
+    }
+}
